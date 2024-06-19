@@ -3,25 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EBAC Tech Talks</title>
+    <title>Aniversário LF</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
+            
             <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
+                Venha comemorar meu aniversário comigo! A festa começa em <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        HOLI - São Paulo/SP
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 200,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        15/04/2025 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
         </div>
-
     </header>
+    
+    <section class="event event--dj">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">DJ Alok</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet consectetur quibusdam temporibus cumque. Molestias, adipisci provident ipsum modi, corporis, laboriosam impedit voluptatum fugit beatae alias nemo eligendi eaque deserunt voluptatibus?
+                </p>
+            </div>
+            <img class="event__image" src="./images/dj.jpg" alt="Front-end">
+        </div>
+    </section>
 
+    <section class="event event--atracao event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">+Atração Surpresa</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet consectetur quibusdam temporibus cumque. Molestias, adipisci provident ipsum modi, corporis, laboriosam impedit voluptatum fugit beatae alias nemo eligendi eaque deserunt voluptatibus?
+                </p>
+            </div>
+            <img class="event__image" src="./images/atracao.jpg" alt="Front-end">
+        </div>
+    </section>
 
+    <section class="event event--open">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">+18</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet consectetur quibusdam temporibus cumque. Molestias, adipisci provident ipsum modi, corporis, laboriosam impedit voluptatum fugit beatae alias nemo eligendi eaque deserunt voluptatibus?
+                </p>
+            </div>
+            <img class="event__image" src="./images/open.jpg" alt="Front-end">
+        </div>
+    </section>
 
+    <section class="event event--comemore event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Comemore comigo</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet consectetur quibusdam temporibus cumque. Molestias, adipisci provident ipsum modi, corporis, laboriosam impedit voluptatum fugit beatae alias nemo eligendi eaque deserunt voluptatibus?
+                </p>
+            </div>
+            <img class="event__image" src="./images/comemore.jpg" alt="Front-end">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
